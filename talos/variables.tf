@@ -13,7 +13,27 @@ variable "talos_controlplane_01_ip_addr" {
   default = "<an unused IP address in your network>"
 }
 
+variable "talos_controlplane_02_ip_addr" {
+  type    = string
+  default = "<an unused IP address in your network>"
+}
+
+variable "talos_controlplane_03_ip_addr" {
+  type    = string
+  default = "<an unused IP address in your network>"
+}
+
 variable "talos_worker_01_ip_addr" {
+  type    = string
+  default = "<an unused IP address in your network>"
+}
+
+variable "talos_worker_02_ip_addr" {
+  type    = string
+  default = "<an unused IP address in your network>"
+}
+
+variable "talos_worker_03_ip_addr" {
   type    = string
   default = "<an unused IP address in your network>"
 }
